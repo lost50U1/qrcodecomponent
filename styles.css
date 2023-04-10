@@ -1,28 +1,61 @@
-* {
+/* css reset  */
+
+*,
+*::before,
+*::after {
   box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+source {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  font: inherit;
+}
+
+p,
+h1 {
+  overflow-wrap: break-word;
 }
 
 body {
   margin: 0;
-  padding: 0;
   background-color: hsl(212, 45%, 89%);
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 15px;
+  display: grid;
+  place-content: center;
 }
 
 main {
   max-width: 375px;
   margin: 0 auto;
-  display: grid;
   padding: 30px;
 }
 
-/* for desktop size 1440px */
+/* for desktop size 1440px
 @media only screen and (min-width: 1440px) {
   main {
     margin-top: 20vh;
   }
-}
+} */
 
 .card {
   background-color: hsl(0, 0%, 100%);
