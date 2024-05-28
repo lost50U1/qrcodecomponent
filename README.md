@@ -56,7 +56,7 @@ I used this media query to make it responsive for desktop screen:
 
 ## Author
 
-- Website - [Biruk Moges](https://lost50u1.github.io/qrcodecomponent/)
+- Website - [Biruk Moges](https://lost50u1.github.io/)
 - Frontend Mentor - [@lost50U1](https://www.frontendmentor.io/profile/lost50U1)
 - Twitter - [@cc64e15cb0f543a](https://www.twitter.com/@cc64e15cb0f543a)
 
